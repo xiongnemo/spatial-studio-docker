@@ -1,0 +1,8 @@
+version: "3"
+services:
+        studio:
+                image: marshmallowqwq/oracle-spatial-studio
+                container_name: spatial_studio
+                restart: always
+                ports:
+                        - "0.0.0.0:4040:4040"
